@@ -31,4 +31,11 @@ const mathUtil = {
     }
 }
 
-module.exports = mathUtil;
+
+
+function greet(name) {
+    const unused = 42;
+    return `Hello, ${name}!`;
+}
+
+module.exports = { mathUtil, greet };
